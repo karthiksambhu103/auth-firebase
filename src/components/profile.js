@@ -36,11 +36,12 @@ function Profile() {
       {userDetails ? (
         <>
           <div style={{ display: "flex", justifyContent: "center" }}>
-            <img
-              src={userDetails.photo}
-              width={"40%"}
-              style={{ borderRadius: "50%" }}
-            />
+           <img
+  src={userDetails.photo}
+  width={"40%"}
+  style={{ borderRadius: "50%" }}
+  alt="User profile photo"
+/>
           </div>
           <h3>Welcome {userDetails.firstName} 🙏🙏</h3>
           <div>
