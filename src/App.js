@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import Navbar from "./Navbar";
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -27,6 +29,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+    <Navbar />
         <div className="auth-wrapper">
           <div className="auth-inner">
             <Routes>
